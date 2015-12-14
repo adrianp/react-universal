@@ -4,20 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js"
   },
   "author": "Adrian-Tudor Panescu <adrian@panescu.com>",
   "license": "MIT",
   "dependencies": {
+    "babel-preset-es2015": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
     "ejs": "^2.3.4",
     "express": "^4.13.3",
+    "history": "^1.16.0",
+    "http-codes": "^1.0.0",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-router": "^1.0.2"
-  },
-  "devDependencies": {
-    "babel-preset-es2015": "^6.3.13",
-    "babel-preset-react": "^6.3.13"
   }
 }
